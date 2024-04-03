@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-transform: capitalize;
+}
+
+.img1
+{
+    background-image: url(img2.avif);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.form
+{
+    width: 300px;
+    height: 350px;
+    background-color: rgba(0, 0, 0, .3);
+    backdrop-filter: blur(3px);
+
+}
+.form h2
+{
+    text-align: center;
+    margin-top: 20px;
+    color: white;
+}
+
+.input1{
+    margin-top: 20px;
+    margin-left: 25px;
+}
+.input1 label
+{
+    display: block;
+    color: white;
+}
+.input1 input
+{
+    width: 250px;
+    padding: 5px;
+
+}
+
+
+
+.input2 label
+{
+    display: block;
+    color: white;
+}
+.input2 input
+{
+    width: 250px;
+    padding: 5px;
+}
+.input2{
+    margin-top: 20px;
+    margin-left: 25px;
+}
+
+.check
+{
+    margin-top: 20px;
+    margin-left: 26px;
+}
+.check label
+{
+    color: white;
+}
+.check a
+{
+    margin-left: 20px;
+    text-decoration: none;
+    color: white;
+}
+
+.submit input
+{
+    margin-top: 20px;
+    margin-left: 25px;
+    width: 250px;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.tail{
+
+    margin-top: 20px;
+    margin-left: 25px;
+    
+}
+.tail p{
+    display: inline-block;
+    color: white;
+}
+.tail a
+{
+    color: white;
+    text-decoration: none;
+    margin-left: 35px;
+}
